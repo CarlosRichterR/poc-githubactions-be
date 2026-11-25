@@ -1,0 +1,5 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Poc.Api/Poc.Api.csproj" />
+  </Folder>
+</Solution>

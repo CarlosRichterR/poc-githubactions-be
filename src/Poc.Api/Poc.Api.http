@@ -1,0 +1,20 @@
+@host = http://localhost:5080
+
+GET {{host}}/health
+
+###
+
+GET {{host}}/api/info
+
+###
+
+GET {{host}}/api/messages
+
+###
+
+POST {{host}}/api/messages
+Content-Type: application/json
+
+{
+  "text": "Hola desde .http"
+}
